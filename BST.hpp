@@ -63,7 +63,7 @@ class BST{
         */
         void printTreeHelper(Node* currNode);
 
-        /* OPTIONAL (this is to help in visualizing the tree)
+        /* OPTIONAL (this is to help in visualizing the tree) //Hey I made a change here!
         Method Name: print2DUtilHelper
         Purpose: Prints the tree rooted at 'currNode' in a 2D fashion. Refer to the recitation writeup for this funciton
         Call this function from print2DUtil().
