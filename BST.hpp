@@ -61,24 +61,9 @@ class BST{
         Call this function from printTree()
         return: none
         */
-        void printTreeHelper(Node* currNode);
-
-        /* OPTIONAL (this is to help in visualizing the tree) //Hey I made a change here!
-        Method Name: print2DUtilHelper
-        Purpose: Prints the tree rooted at 'currNode' in a 2D fashion. Refer to the recitation writeup for this funciton
-        Call this function from print2DUtil().
-        return: none
-        */
-        void print2DUtilHelper(Node *currNode, int space);
-
-        /*
-        Method Name: destroyNode
-        Purpose: This function will destroy the tree rooted at 'currNode'.
-        Destructor will call this function to recursively delete all nodes
-        return: none
-        */
-        void destroyNode(Node *currNode);
-
+        void printTreeHelper(Node* currNode); 
+        
+        // Is this even needed? Will this even work?
     public:
 
         // function to insert a node in the tree. This function calls the addNodeHelper()
